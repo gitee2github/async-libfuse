@@ -1,37 +1,36 @@
 # async-libfuse
 
-#### 介绍
-asyncchronized libfuse in Rust
+## Introduction
+Asyncchronized libfuse in Rust
 
-#### 软件架构
-软件架构说明
+## Getting Started
 
+### Compiling
 
-#### 安装教程
+After `git clone` this project, you can start compiling by the help of `cargo`:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```sh
+cargo build
+```
 
-#### 使用说明
+While compiling finished message pop up on terminal, you can get the executable file in `./target/debug/async_libfuse`.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Usage
 
-#### 参与贡献
+Commandline and flags of `async_libfuse` are:
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+```sh
+async_libfuse <MOUNTPOINT>
+```
 
+`async_libfuse` accepts the `MOUNTPOINT`, mounts it with `type fuse` and starts the fuse server on it.
 
-#### 码云特技
+## How to Contribute
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+We are happy to provide guidance for the new contributors.
+
+Please sign the [CLA](https://openeuler.org/en/cla.html) before contributing.
+
+## Licensing
+
+async-libfuse is licensed under the Mulan PSL v2.
