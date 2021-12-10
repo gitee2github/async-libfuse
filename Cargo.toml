@@ -1,5 +1,5 @@
 [package]
-name = "async_fuse"
+name = "async_libfuse"
 version = "0.1.0"
 authors = ["Pu Wang <nicolas.weeks@gmail.com>"]
 edition = "2018"
