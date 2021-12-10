@@ -31,6 +31,10 @@ We are happy to provide guidance for the new contributors.
 
 Please sign the [CLA](https://openeuler.org/en/cla.html) before contributing.
 
+## Acknowledgment
+
+This lib was part of [DatenLord](https://github.com/datenlord/datenlord), many thanks to their great work.
+
 ## Licensing
 
 async-libfuse is licensed under the Mulan PSL v2.
